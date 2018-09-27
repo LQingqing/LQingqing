@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*消除浮动*/
+.clearfix:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+body{
+    background-color: #CCCCCC;
+}
+/*目标位置*/
+.type1{
+    background: url("imgs/3.jpg")  0 0 /contain no-repeat;
+}
+/*可走路径*/
+.type2{
+    background-color: #267fff;
+}
+/*墙*/
+.type3{
+    background-color: #000000;
+}
+/*箱子*/
+.type4{
+    background: url("imgs/2.jpg")  0 0 /contain no-repeat;
+}
+/*玩家*/
+.pusher{
+    background: url("imgs/1.jpg")  0 0 /cover no-repeat;
+}
+#selctVal{
+    width: 80px;
+}
+button{
+    width: 50px;
+}
+.box{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid yellow;
+}
+.box div {
+    width: 80px;
+    height: 80px;
+   float: left;
+}
